@@ -1,7 +1,7 @@
 {
-  "name": "javascript-action",
+  "name": "terraform-outputs",
   "version": "1.0.0",
-  "description": "JavaScript Action Template",
+  "description": "Fetch outputs from a terraform workspace",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -11,12 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/javascript-action.git"
+    "url": "git+https://github.com/nwmqpa/terraform-outputs.git"
   },
   "keywords": [
     "GitHub",
     "Actions",
-    "JavaScript"
+    "JavaScript",
+    "Terraform"
   ],
   "author": "",
   "license": "MIT",
@@ -25,7 +26,8 @@
   },
   "homepage": "https://github.com/actions/javascript-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.5"
+    "@actions/core": "^1.2.5",
+    "@actions/http-client": "^2.0.1"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.31.1",
